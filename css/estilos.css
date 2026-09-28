@@ -60,7 +60,7 @@ main {
 }
 
 #uno {
-    background-image: url('../img/imagen1.jpg');
+    background-image: url('img/imagen1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -72,7 +72,7 @@ main {
 }
 
 #tres {
-    background-image: url('../img/imagen2.jpg');
+    background-image: url('img/imagen2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ main {
 }
 
 #siete {
-    background-image: url('../img/imagen2.jpg');
+    background-image: url('img/imagen2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
