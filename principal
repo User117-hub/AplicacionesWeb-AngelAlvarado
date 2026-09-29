@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Alvarado">
+    <title>Practica_1</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="layout-principal">
+        <aside id="barra_lateral">
+            <nav>
+                <p>Menú</p>
+                <ul>
+                    <li><a href="#">Opc 1</a></li>
+                    <li><a href="#">Opc 2</a></li>
+                    <li><a href="#">Opc 3</a></li>
+                    <li><a href="#">Opc 4</a></li>
+                    <li><a href="#">Opc 5</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="contenedor">
+                <article id="uno">Imagen CSS</article>
+                <article id="dos">Gradiente ↓</article>
+                <article id="tres">Imagen CSS</article>
+                <article id="cuatro">Gradiente ↑</article>
+            </section>
+
+            <section class="contenedor">
+                <article id="cinco">
+                    <img src="img/imagen1.jpg" alt="Imagen 1">
+                </article>
+                <article id="seis">Gradiente →</article>
+                <article id="siete">Imagen CSS</article>
+                <article id="ocho">Gradiente ←</article>
+            </section>
+
+            <section class="contenedor inferior">
+                <article>
+                    <div class="iconos-fila">
+                        <img src="img/imagen3.png" alt="Imagen 3">
+                        <img src="img/imagen3.png" alt="Imagen 3">
+                        <img src="img/imagen3.png" alt="Imagen 3">
+                        <img src="img/imagen3.png" alt="Imagen 3">
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate repellendus voluptate provident? Deserunt sapiente molestiae cumque natus provident.</p>
+                </article>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint commodi omnis accusantium perferendis ad tenetur, impedit velit, corrupti earum aut cupiditate illo.</p>
+                    <img src="img/imagen4.png" alt="Imagen 4">
+                </article>
+                <article>
+                    <img src="img/imagen5.png" id="imagen5" alt="Imagen 5">
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <article class="pie" id="redes_sociales">
+            <span class="material-symbols-outlined">mail</span>
+            <span class="material-symbols-outlined">nest_heat_link_gen_3</span>
+            <span class="material-symbols-outlined">play_arrow</span>
+        </article>
+
+        <article class="pie" id="enlaces">
+            <a href="https://www.google.com/" id="google">Google</a>
+            <nav>
+                <ul>
+                    <li><a>Opc 1</a></li>
+                    <li><a>Opc 2</a></li>
+                    <li><a>Opc 3</a></li>
+                    <li><a>Opc 4</a></li>
+                    <li><a>Opc 5</a></li>
+                </ul>
+            </nav>
+        </article>
+    </footer>
+</body>
+</html>
