@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    margin: 20px 0;
+}
+
+section {
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    border: solid 2px #dae26f;
+    border-radius: 15px;
+    color: black;
+    background-color: #dae26f90;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
