@@ -52,7 +52,6 @@ main {
 .contenedor {
     display: flex;
     width: 100%;
-    flex: 1;
 }
 
 .contenedor article {
@@ -121,7 +120,6 @@ main {
 
 .inferior article {
     background-color: #a0c5ff;
-    border: 2px solid #0A2947;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,12 +135,11 @@ main {
     flex-direction: row;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 10px;
 }
 
 .inferior article:first-child .iconos-fila img {
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
 }
 
