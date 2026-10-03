@@ -65,7 +65,7 @@ main {
 }
 
 #uno {
-    background-image: url('../../img/practica2/ID-mercury.jpg');
+    background-image: url('../img/practica2/ID-mercury.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
