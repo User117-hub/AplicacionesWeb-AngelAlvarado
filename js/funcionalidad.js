@@ -36,8 +36,8 @@ function cancion(){
     var nombre = document.getElementById('nombre').value;
     var duracion = document.getElementById('duracion').value;
     var compositor = document.getElementById('compositor').value;
-    var cantante = document.getElementById('select-cantante').value;
-    
+    var cantante = document.getElementById('cantante').value;
+
     var mensaje = "--- DATOS REGISTRADOS ---\n" +
                   "Nombre: " + nombre + "\n" +
                   "Duracion: " + duracion + "\n" +
