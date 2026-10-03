@@ -65,56 +65,56 @@ main {
 }
 
 #uno {
-    background-image: url('../img/ID-mercury.jpg');
+    background-image: url('/img/practica2/ID-mercury.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #dos {
-    background-image: url('../img/ID-NightVisions.jpg');
+    background-image: url('/img/practica2/ID-NightVisions.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #tres {
-    background-image: url('../img/Avicii-Forever.jpg');
+    background-image: url('/img/practica2/Avicii-Forever.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #cuatro {
-    background-image: url('../img/tscore-atlas.jpg');
+    background-image: url('/img/practica2/tscore-atlas.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #cinco {
-    background-image: url('../img/ID-origins.jpg');
+    background-image: url('/img/practica2/ID-origins.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #seis {
-    background-image: url('../img/FallOutBoy-Mania.png');
+    background-image: url('/img/practica2/FallOutBoy-Mania.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #siete {
-    background-image: url('../img/TWP-blurryface.jpg');
+    background-image: url('/img/practica2/TWP-blurryface.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #ocho {
-    background-image: url('../img/ID-LOOM.jpg');
+    background-image: url('/img/practica2/ID-LOOM.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
