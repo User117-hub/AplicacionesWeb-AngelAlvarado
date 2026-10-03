@@ -37,14 +37,12 @@ function cancion(){
     var duracion = document.getElementById('duracion').value;
     var compositor = document.getElementById('compositor').value;
     var cantante = document.getElementById('select-cantante').value;
-    var foto = document.getElementById('foto').value;
     
     var mensaje = "--- DATOS REGISTRADOS ---\n" +
                   "Nombre: " + nombre + "\n" +
                   "Duracion: " + duracion + "\n" +
                   "Compositor: " + compositor + "\n" +
-                  "Cantante: " + cantante + "\n" +
-                  "Foto: " + foto;
+                  "Cantante: " + cantante;
 
     alert(mensaje);
 }
