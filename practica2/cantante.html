@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Alvarado">
+    <title>Cantante</title>
+    <link href="css/estilo.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <section class="layout-principal">
+        <aside id="barra_lateral">
+            <nav>
+                <p>Menú</p>
+                <ul>
+                    <li><a href="index.html"><span class="material-symbols-outlined">home</span> Home</a></li>
+                    <li><a href="disco.html"><span class="material-symbols-outlined">album</span> Disco</a></li>
+                    <li><a href="cantante.html"><span class="material-symbols-outlined">person</span> Cantante</a></li>
+                    <li><a href="cancion.html"><span class="material-symbols-outlined">music_note</span> Cancion</a></li>
+                    <li><a href="playlist.html"><span class="material-symbols-outlined">playlist_play</span> Playlist</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section id="principal">
+                <article>
+                  <form name="frmUsuario" action="#" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <div id="registro">
+                            <div class="campo">
+                                <label>Nombre:</label>
+                                <input type="text" id="nombre" />
+                            </div>
+                            <div class="campo">
+                                <label>Edad:</label>
+                                <input type="number" id="edad" /><br>
+                            </div>
+                            <div class="campo">
+                                <label> Género:</label>
+                                    <input type="radio" name="genero" id="genero" value="F">F
+                                    <input type="radio" name="genero" id="genero" value="M">M
+                            </div>
+                            <div class="campo">
+                                <label>Trayectoria:</label>
+                                <input type="text" id="trayectoria"/> años<br>
+                            </div>
+                        </div>
+                            
+                            <div id="cuadro-foto">
+                                <label>Foto:</label>
+                                <input type="file" id="foto">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button type="button" id="boton" onclick="cantante()">Guardar</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+    </section>
+
+    <footer>
+        <article class="pie">
+            <p>Grupo LDSM401</p>
+        </article>
+
+        <article class="pie">
+            <p>Angel Omar Alvarado Lara</p>
+        </article>
+    </footer>   
+    <script src="js/funcionalidad.js"></script>
+</body>
+</html> 
